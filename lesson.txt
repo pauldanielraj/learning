@@ -1,0 +1,26 @@
+swap memory - its like RAM but its in disk
+shell scripting:
+vi editor
+w - to move forword to the front of next word
+b - to move backward to the front of the word
+0 - jump to start of a line in a file
+G - end of the file
+A - to end of the file and insert mode
+$ -
+V - to select/highlight part of the file.
+d - delete the selected portion
+dd - delete the hole line where the cursor is
+chmod:
+0 - nothing
+1 - exec only
+2 - write only
+3 - write & exec
+4 - read only
+5 - read & exec
+6 - read & write
+7 - Full access
+
+created a .vimrc file in the home directory to store some of the property of how vim should
+look and work.
+
+and to check which vimrc its using - :echo $MYVIMRC
